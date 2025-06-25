@@ -15,10 +15,10 @@ public class AccountController {
     public AccountController(AccountService service) {
         this.service = service;
     }
-
+    
     @GetMapping
-    public List<Account> getAllAccounts() {
-        return service.getAllAccounts();
+    public String getText() {
+    	return "This is my project";
     }
 }
 
