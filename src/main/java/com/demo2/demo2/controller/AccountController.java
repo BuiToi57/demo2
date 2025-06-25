@@ -20,5 +20,10 @@ public class AccountController {
     public String getText() {
     	return "This is my project";
     }
+
+    @GetMapping
+    public String getText1() {
+    	return "This is my project";
+    }
 }
 
