@@ -9,6 +9,7 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+	//Thanh tesst
     private String email;
     private String name;
     private String password;
